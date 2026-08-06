@@ -15,14 +15,13 @@
             margin: 0%;
         }
         input{ width: 20vw; height: 8vh; border: 0.1px rgb(203, 201, 201) solid; border-radius: 5px; }
-       
     </style>
     <div style="position: absolute;right: 0px;">
         <a href="index.html"><i class="fa-solid fa-house" style="margin: 5px;font-size:x-large;"></i></a>
         <a href="advanced.html"><i class="fa-brands fa-google-plus-g" style="margin:5px;font-size:x-large;"></i></a>
         </div>
 <div class="container1" >
-    <div class="row" style="padding-top: 4vh;padding-bottom: 2vh;">
+    <div class="row" style="padding-top: 4vh;padding-bottom: 2vh; padding-left: 2vw;">
         <a href="index.html" style="text-decoration: none;"><h1 id="logo"><span style="color: aqua;">G</span><span style="color:orangered;">o</span><span style="color: gold;">o</span><span style="color: aqua;">g</span><span style="color: greenyellow ;">l</span><span style="color: orangered;">e</span></h1></a>
     </div>
 
@@ -31,29 +30,39 @@
     <div class="row">
         <p style="font-size: 28px;">Advanced Search</p>
     </div>
-    <div class="row">
+    <div class="row mb-3">
         <p style="font-size: 20px;">Find pages with</p>
     </div>
     <div class="row">
         <form action="https://www.google.com/search" method="get">
-            <div>
-            <label for="as_q">All of these words:</label>
-            <input name="as_q" type="text" id="as_q">
+            <div class="row mb-3">
+            
+            <label for="as_q" class="col-4">All of these words:</label>
+            <input name="as_q" type="text" id="as_q" class="col-4">
+            <div class="col-4"></div>
             </div>
-            <div>
-            <label for="as_epq">This exact word or phrase:</label>
-            <input name="as_epq" type="text" id="as_epq">
+            <div class="row mb-3">
+            <label for="as_epq" class="col-4">This exact word or phrase:</label>
+            <input name="as_epq" type="text" id="as_epq" class="col-4">
+                        <div class="col-4"></div>
+
             </div>
-            <div>
-            <label for="as_eq">None of these words:</label>
-            <input name="as_eq" type="text" id="as_eq">
+            <div class="row mb-3">
+            <label for="as_eq" class="col-4">None of these words:</label>
+            <input name="as_eq" type="text" id="as_eq" class="col-4">
+                        <div class="col-4"></div>
+
             </div>
-            <div>
-            <label for="as_sitesearch">Site or domain:</label>
-            <input name="as_sitesearch" type="text" id="as_sitesearch">
+            <div class="row mb-3">
+            <label for="as_sitesearch" class="col-4">Site or domain:</label>
+            <input name="as_sitesearch" type="text" id="as_sitesearch" class="col-4">
+                        <div class="col-4"></div>
+
             </div>
+            <div class="row">
             <div style="display: flex; justify-content: flex-end;">
             <button type="submit" id="notme" style="border: 0px; border-radius: 25px;color: white;background-color: blue;" >Advanced search</button>
+            </div>
             </div>
         </form>
     </div>
