@@ -52,3 +52,7 @@ scan{
     display: flex;
     justify-content: center;
 }
+.topones{
+    background-color: white;
+    border: 0px;
+}
