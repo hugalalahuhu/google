@@ -48,3 +48,7 @@ scan{
     padding: 0px;
     margin: 0px;
 }
+.col-8{
+    display: flex;
+    justify-content: center;
+}
